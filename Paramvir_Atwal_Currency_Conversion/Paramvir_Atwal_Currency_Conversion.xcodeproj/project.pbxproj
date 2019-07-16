@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E166AE0F22DE5B29003FF5E8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E166AE0E22DE5B29003FF5E8 /* AppDelegate.swift */; };
+		E166AE1122DE5B29003FF5E8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E166AE1022DE5B29003FF5E8 /* ViewController.swift */; };
+		E166AE1422DE5B29003FF5E8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E166AE1222DE5B29003FF5E8 /* Main.storyboard */; };
+		E166AE1622DE5B2A003FF5E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E166AE1522DE5B2A003FF5E8 /* Assets.xcassets */; };
+		E166AE1922DE5B2A003FF5E8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E166AE1722DE5B2A003FF5E8 /* LaunchScreen.storyboard */; };
+		E166AE2422DE5B2A003FF5E8 /* Paramvir_Atwal_Currency_ConversionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E166AE2322DE5B2A003FF5E8 /* Paramvir_Atwal_Currency_ConversionTests.swift */; };
+		E166AE2F22DE5B2A003FF5E8 /* Paramvir_Atwal_Currency_ConversionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E166AE2E22DE5B2A003FF5E8 /* Paramvir_Atwal_Currency_ConversionUITests.swift */; };
+		E166AE3D22DE627E003FF5E8 /* ConversionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E166AE3C22DE627E003FF5E8 /* ConversionModel.swift */; };
+		E166AE3F22DE7148003FF5E8 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = E166AE3E22DE7148003FF5E8 /* SwiftyJSON.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E166AE2022DE5B2A003FF5E8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E166AE0322DE5B29003FF5E8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E166AE0A22DE5B29003FF5E8;
+			remoteInfo = Paramvir_Atwal_Currency_Conversion;
+		};
+		E166AE2B22DE5B2A003FF5E8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E166AE0322DE5B29003FF5E8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E166AE0A22DE5B29003FF5E8;
+			remoteInfo = Paramvir_Atwal_Currency_Conversion;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E166AE0B22DE5B29003FF5E8 /* Paramvir_Atwal_Currency_Conversion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Paramvir_Atwal_Currency_Conversion.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E166AE0E22DE5B29003FF5E8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E166AE1022DE5B29003FF5E8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E166AE1322DE5B29003FF5E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E166AE1522DE5B2A003FF5E8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E166AE1822DE5B2A003FF5E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E166AE1A22DE5B2A003FF5E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E166AE1F22DE5B2A003FF5E8 /* Paramvir_Atwal_Currency_ConversionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Paramvir_Atwal_Currency_ConversionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E166AE2322DE5B2A003FF5E8 /* Paramvir_Atwal_Currency_ConversionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Paramvir_Atwal_Currency_ConversionTests.swift; sourceTree = "<group>"; };
+		E166AE2522DE5B2A003FF5E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E166AE2A22DE5B2A003FF5E8 /* Paramvir_Atwal_Currency_ConversionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Paramvir_Atwal_Currency_ConversionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E166AE2E22DE5B2A003FF5E8 /* Paramvir_Atwal_Currency_ConversionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Paramvir_Atwal_Currency_ConversionUITests.swift; sourceTree = "<group>"; };
+		E166AE3022DE5B2A003FF5E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E166AE3C22DE627E003FF5E8 /* ConversionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversionModel.swift; sourceTree = "<group>"; };
+		E166AE3E22DE7148003FF5E8 /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SwiftyJSON.swift; path = "../../../Downloads/SwiftyJSON-master/Source/SwiftyJSON/SwiftyJSON.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E166AE0822DE5B29003FF5E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E166AE1C22DE5B2A003FF5E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E166AE2722DE5B2A003FF5E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E166AE0222DE5B29003FF5E8 = {
+			isa = PBXGroup;
+			children = (
+				E166AE0D22DE5B29003FF5E8 /* Paramvir_Atwal_Currency_Conversion */,
+				E166AE2222DE5B2A003FF5E8 /* Paramvir_Atwal_Currency_ConversionTests */,
+				E166AE2D22DE5B2A003FF5E8 /* Paramvir_Atwal_Currency_ConversionUITests */,
+				E166AE0C22DE5B29003FF5E8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E166AE0C22DE5B29003FF5E8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E166AE0B22DE5B29003FF5E8 /* Paramvir_Atwal_Currency_Conversion.app */,
+				E166AE1F22DE5B2A003FF5E8 /* Paramvir_Atwal_Currency_ConversionTests.xctest */,
+				E166AE2A22DE5B2A003FF5E8 /* Paramvir_Atwal_Currency_ConversionUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E166AE0D22DE5B29003FF5E8 /* Paramvir_Atwal_Currency_Conversion */ = {
+			isa = PBXGroup;
+			children = (
+				E166AE0E22DE5B29003FF5E8 /* AppDelegate.swift */,
+				E166AE1022DE5B29003FF5E8 /* ViewController.swift */,
+				E166AE1222DE5B29003FF5E8 /* Main.storyboard */,
+				E166AE1522DE5B2A003FF5E8 /* Assets.xcassets */,
+				E166AE1722DE5B2A003FF5E8 /* LaunchScreen.storyboard */,
+				E166AE1A22DE5B2A003FF5E8 /* Info.plist */,
+				E166AE3C22DE627E003FF5E8 /* ConversionModel.swift */,
+				E166AE3E22DE7148003FF5E8 /* SwiftyJSON.swift */,
+			);
+			path = Paramvir_Atwal_Currency_Conversion;
+			sourceTree = "<group>";
+		};
+		E166AE2222DE5B2A003FF5E8 /* Paramvir_Atwal_Currency_ConversionTests */ = {
+			isa = PBXGroup;
+			children = (
+				E166AE2322DE5B2A003FF5E8 /* Paramvir_Atwal_Currency_ConversionTests.swift */,
+				E166AE2522DE5B2A003FF5E8 /* Info.plist */,
+			);
+			path = Paramvir_Atwal_Currency_ConversionTests;
+			sourceTree = "<group>";
+		};
+		E166AE2D22DE5B2A003FF5E8 /* Paramvir_Atwal_Currency_ConversionUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E166AE2E22DE5B2A003FF5E8 /* Paramvir_Atwal_Currency_ConversionUITests.swift */,
+				E166AE3022DE5B2A003FF5E8 /* Info.plist */,
+			);
+			path = Paramvir_Atwal_Currency_ConversionUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E166AE0A22DE5B29003FF5E8 /* Paramvir_Atwal_Currency_Conversion */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E166AE3322DE5B2A003FF5E8 /* Build configuration list for PBXNativeTarget "Paramvir_Atwal_Currency_Conversion" */;
+			buildPhases = (
+				E166AE0722DE5B29003FF5E8 /* Sources */,
+				E166AE0822DE5B29003FF5E8 /* Frameworks */,
+				E166AE0922DE5B29003FF5E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Paramvir_Atwal_Currency_Conversion;
+			productName = Paramvir_Atwal_Currency_Conversion;
+			productReference = E166AE0B22DE5B29003FF5E8 /* Paramvir_Atwal_Currency_Conversion.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E166AE1E22DE5B2A003FF5E8 /* Paramvir_Atwal_Currency_ConversionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E166AE3622DE5B2A003FF5E8 /* Build configuration list for PBXNativeTarget "Paramvir_Atwal_Currency_ConversionTests" */;
+			buildPhases = (
+				E166AE1B22DE5B2A003FF5E8 /* Sources */,
+				E166AE1C22DE5B2A003FF5E8 /* Frameworks */,
+				E166AE1D22DE5B2A003FF5E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E166AE2122DE5B2A003FF5E8 /* PBXTargetDependency */,
+			);
+			name = Paramvir_Atwal_Currency_ConversionTests;
+			productName = Paramvir_Atwal_Currency_ConversionTests;
+			productReference = E166AE1F22DE5B2A003FF5E8 /* Paramvir_Atwal_Currency_ConversionTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E166AE2922DE5B2A003FF5E8 /* Paramvir_Atwal_Currency_ConversionUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E166AE3922DE5B2A003FF5E8 /* Build configuration list for PBXNativeTarget "Paramvir_Atwal_Currency_ConversionUITests" */;
+			buildPhases = (
+				E166AE2622DE5B2A003FF5E8 /* Sources */,
+				E166AE2722DE5B2A003FF5E8 /* Frameworks */,
+				E166AE2822DE5B2A003FF5E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E166AE2C22DE5B2A003FF5E8 /* PBXTargetDependency */,
+			);
+			name = Paramvir_Atwal_Currency_ConversionUITests;
+			productName = Paramvir_Atwal_Currency_ConversionUITests;
+			productReference = E166AE2A22DE5B2A003FF5E8 /* Paramvir_Atwal_Currency_ConversionUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E166AE0322DE5B29003FF5E8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Paramvir Singh Atwal";
+				TargetAttributes = {
+					E166AE0A22DE5B29003FF5E8 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					E166AE1E22DE5B2A003FF5E8 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = E166AE0A22DE5B29003FF5E8;
+					};
+					E166AE2922DE5B2A003FF5E8 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = E166AE0A22DE5B29003FF5E8;
+					};
+				};
+			};
+			buildConfigurationList = E166AE0622DE5B29003FF5E8 /* Build configuration list for PBXProject "Paramvir_Atwal_Currency_Conversion" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E166AE0222DE5B29003FF5E8;
+			productRefGroup = E166AE0C22DE5B29003FF5E8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E166AE0A22DE5B29003FF5E8 /* Paramvir_Atwal_Currency_Conversion */,
+				E166AE1E22DE5B2A003FF5E8 /* Paramvir_Atwal_Currency_ConversionTests */,
+				E166AE2922DE5B2A003FF5E8 /* Paramvir_Atwal_Currency_ConversionUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E166AE0922DE5B29003FF5E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E166AE1922DE5B2A003FF5E8 /* LaunchScreen.storyboard in Resources */,
+				E166AE1622DE5B2A003FF5E8 /* Assets.xcassets in Resources */,
+				E166AE1422DE5B29003FF5E8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E166AE1D22DE5B2A003FF5E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E166AE2822DE5B2A003FF5E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E166AE0722DE5B29003FF5E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E166AE1122DE5B29003FF5E8 /* ViewController.swift in Sources */,
+				E166AE3D22DE627E003FF5E8 /* ConversionModel.swift in Sources */,
+				E166AE0F22DE5B29003FF5E8 /* AppDelegate.swift in Sources */,
+				E166AE3F22DE7148003FF5E8 /* SwiftyJSON.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E166AE1B22DE5B2A003FF5E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E166AE2422DE5B2A003FF5E8 /* Paramvir_Atwal_Currency_ConversionTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E166AE2622DE5B2A003FF5E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E166AE2F22DE5B2A003FF5E8 /* Paramvir_Atwal_Currency_ConversionUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E166AE2122DE5B2A003FF5E8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E166AE0A22DE5B29003FF5E8 /* Paramvir_Atwal_Currency_Conversion */;
+			targetProxy = E166AE2022DE5B2A003FF5E8 /* PBXContainerItemProxy */;
+		};
+		E166AE2C22DE5B2A003FF5E8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E166AE0A22DE5B29003FF5E8 /* Paramvir_Atwal_Currency_Conversion */;
+			targetProxy = E166AE2B22DE5B2A003FF5E8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E166AE1222DE5B29003FF5E8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E166AE1322DE5B29003FF5E8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E166AE1722DE5B2A003FF5E8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E166AE1822DE5B2A003FF5E8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E166AE3122DE5B2A003FF5E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E166AE3222DE5B2A003FF5E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E166AE3422DE5B2A003FF5E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Paramvir_Atwal_Currency_Conversion/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Georgian.Paramvir-Atwal-Currency-Conversion";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E166AE3522DE5B2A003FF5E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Paramvir_Atwal_Currency_Conversion/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Georgian.Paramvir-Atwal-Currency-Conversion";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E166AE3722DE5B2A003FF5E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Paramvir_Atwal_Currency_ConversionTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Georgian.Paramvir-Atwal-Currency-ConversionTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Paramvir_Atwal_Currency_Conversion.app/Paramvir_Atwal_Currency_Conversion";
+			};
+			name = Debug;
+		};
+		E166AE3822DE5B2A003FF5E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Paramvir_Atwal_Currency_ConversionTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Georgian.Paramvir-Atwal-Currency-ConversionTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Paramvir_Atwal_Currency_Conversion.app/Paramvir_Atwal_Currency_Conversion";
+			};
+			name = Release;
+		};
+		E166AE3A22DE5B2A003FF5E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Paramvir_Atwal_Currency_ConversionUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Georgian.Paramvir-Atwal-Currency-ConversionUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Paramvir_Atwal_Currency_Conversion;
+			};
+			name = Debug;
+		};
+		E166AE3B22DE5B2A003FF5E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Paramvir_Atwal_Currency_ConversionUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Georgian.Paramvir-Atwal-Currency-ConversionUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Paramvir_Atwal_Currency_Conversion;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E166AE0622DE5B29003FF5E8 /* Build configuration list for PBXProject "Paramvir_Atwal_Currency_Conversion" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E166AE3122DE5B2A003FF5E8 /* Debug */,
+				E166AE3222DE5B2A003FF5E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E166AE3322DE5B2A003FF5E8 /* Build configuration list for PBXNativeTarget "Paramvir_Atwal_Currency_Conversion" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E166AE3422DE5B2A003FF5E8 /* Debug */,
+				E166AE3522DE5B2A003FF5E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E166AE3622DE5B2A003FF5E8 /* Build configuration list for PBXNativeTarget "Paramvir_Atwal_Currency_ConversionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E166AE3722DE5B2A003FF5E8 /* Debug */,
+				E166AE3822DE5B2A003FF5E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E166AE3922DE5B2A003FF5E8 /* Build configuration list for PBXNativeTarget "Paramvir_Atwal_Currency_ConversionUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E166AE3A22DE5B2A003FF5E8 /* Debug */,
+				E166AE3B22DE5B2A003FF5E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E166AE0322DE5B29003FF5E8 /* Project object */;
+}
